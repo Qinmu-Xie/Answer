@@ -2,18 +2,17 @@ server:
   port: 9000
 
 spring:
-  h2.console.enabled: true
+  h2.console.enabled: false
   datasource:
     initialize: true
     url: jdbc:h2:mem:dataSource
     username: sa
     password:
     driverClassName: org.h2.Driver
-  jap:
+  jpa:
     database: H2
     hibernate:
       ddl-auto: validate
       dialect: org.hibernate.dialect.H2Dialect
-    repositories.enabled: false
 
 
