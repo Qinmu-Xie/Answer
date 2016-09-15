@@ -68,6 +68,12 @@
       <version>4.0.3</version>
     </dependency>
     <dependency>
+      <groupId>com.github.binarywang</groupId>
+      <artifactId>weixin-java-mp</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>

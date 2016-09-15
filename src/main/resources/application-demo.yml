@@ -2,9 +2,9 @@ server:
   port: 9000
 
 weixinmp:
-  appId: wxf5ed997dc32ac5c7
-  secret: 2346bc386d6e9ca6b71dc99e004b99ee
-  token: answer
+  appId: XXXX
+  secret: XXXXX
+  token: XXXX
 
 spring:
   h2.console.enabled: false
@@ -20,6 +20,3 @@ spring:
     hibernate:
       ddl-auto: validate
       dialect: org.hibernate.dialect.H2Dialect
-
-
-
