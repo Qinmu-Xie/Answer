@@ -11,6 +11,7 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     database: H2
+    show-sql: true
     hibernate:
       ddl-auto: validate
       dialect: org.hibernate.dialect.H2Dialect

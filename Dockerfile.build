@@ -1,0 +1,11 @@
+FROM maven:3.3.9-jdk-8
+
+ENV BUILD_DIR /usr/local/ccloud
+WORKDIR $BUILD_DIR
+
+ADD pom.xml $BUILD_DIR
+RUN ["mvn","verify","clean","--fail-never"]
+
+ADD . $BUILD_DIR
+RUN ["mvn","verify"]
+
